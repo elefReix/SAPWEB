@@ -1,0 +1,37 @@
+<mvc:View controllerName="Demo.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<App>
+	<pages>
+	    <NavContainer id="__container0">  
+	        <pages>
+	            <Page title="SAP Fiori Cloud" id="__page1">
+	                <content>
+	                    <TileContainer editable="true" allowAdd="true" id="__container1">
+	                        <tiles>
+	                           <StandardTile title="Mis solicitudes" icon="sap-icon://add-contact" number="3" infoState="Success" id="__tile0"/>
+	                            <StandardTile title="Enviar solicitud" info="Info" icon="sap-icon://add-contact" number="123" numberUnit="eur" infoState="Success" id="__tile1"/>
+								<StandardTile title="Mis pedidos" info="Info" icon="sap-icon://customer" number="123" numberUnit="eur" infoState="Success" id="__tile2"/>
+								 <StandardTile title="Devoluciones" info="Info" icon="sap-icon://customer" activeIcon="sap-icon://customer" number="123" numberUnit="eur" infoState="Success" id="__tile4"/>
+	                            <StandardTile title="Enviar factura" info="Info" icon="sap-icon://customer" activeIcon="sap-icon://customer" number="123" numberUnit="eur" infoState="Success" id="__tile3"/>
+	                            
+                            </tiles>
+	                    </TileContainer>
+	                </content>
+	            </Page>
+	            <Page title="SAP Fiori Cloud" id="__page2">
+	                <content>
+	                    <TileContainer editable="true" allowAdd="true" id="__container2">
+	                        <tiles>
+	                           <StandardTile title="Mis solicitudes" icon="sap-icon://add-contact" number="3" infoState="Success" id="__tile9"/>
+	                            <StandardTile title="Enviar solicitud" info="Info" icon="sap-icon://add-contact" number="123" numberUnit="eur" infoState="Success" id="__tile5"/>
+								<StandardTile title="Mis pedidos" info="Info" icon="sap-icon://customer" number="123" numberUnit="eur" infoState="Success" id="__tile6"/>
+								 <StandardTile title="Devoluciones" info="Info" icon="sap-icon://customer" activeIcon="sap-icon://customer" number="123" numberUnit="eur" infoState="Success" id="__tile7"/>
+	                            <StandardTile title="Enviar factura" info="Info" icon="sap-icon://customer" activeIcon="sap-icon://customer" number="123" numberUnit="eur" infoState="Success" id="__tile8"/>
+                            </tiles>
+	                    </TileContainer>
+	                </content>
+	            </Page>
+	        </pages>
+	    </NavContainer>
+	</pages>
+	</App>
+</mvc:View>

@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html class="sapUShellFullHeight">
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8">
+
+		<title>Demo</title>
+		<link id="sap-ui-theme-sap.fiori" rel="stylesheet"  type="text/css" href="&#x2f;sap&#x2f;ui5&#x2f;1&#x2f;stable&#x2f;resources&#x2f;sap&#x2f;fiori&#x2f;..&#x2f;..&#x2f;sap&#x2f;fiori&#x2f;themes&#x2f;sap_bluecrystal&#x2f;library.css&#x3f;version&#x3d;1.28.47&amp;sap-ui-dist-version&#x3d;1.28.47"/>
+		<script id="sap-ui-bootstrap"
+			src="../../resources/sap-ui-core.js"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-theme="sap_bluecrystal"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-resourceroots='{"Demo": ""}'>
+		</script>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<script>
+			sap.ui.getCore().attachInit(function() {
+				new sap.m.Shell({
+					app: new sap.ui.core.ComponentContainer({
+						height : "100%",
+						name : "Demo"
+					})
+				}).placeAt("content");
+			});
+		</script>
+	</head>
+
+	<body class="sapUiBody" id="content">
+	</body>
+
+</html>
